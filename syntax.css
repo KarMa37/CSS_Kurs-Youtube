@@ -1,32 +1,11 @@
-
-#main-content > p {
+a:hover {
     color: red;
 }
 
-#all-articles h2 + p {
-    color: green
+a:active {
+    color: orange;
 }
 
-/*span[class] {
-    color: purple;
-}*/
-
-div[id] {
-    background: grey;
-}
-
-a[title="Search engine"] {
-    color: green;
-}
-
-span[class~="deck"] {
-    color: blue;
-}
-
-a[href$="pdf"] {
-    color: yellow;
-}
-
-a[href^="http"] {
-    background: blue;
+a:visited {
+    color: pink;
 }
