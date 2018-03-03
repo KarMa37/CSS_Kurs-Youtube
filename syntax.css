@@ -1,8 +1,11 @@
 
-.static-width {
-    width: 300px;
-    height: 300px;
-    background: url(../01_HTML_Youtube/img/img.jpg) no-repeat top center;
-    background-size: 50px;
+#banner {
     background-color: #606060;
+    width: 100%;
+    height: 300px;
+    background-image: url(../01_HTML_Youtube/img/img.jpg),
+    url(../01_HTML_Youtube/img/pobrane.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px, 100%;
+    background-position: center, top left;
 }
