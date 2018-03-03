@@ -1,23 +1,37 @@
-article p:first-of-type {
-    font-weight: bold;
+.box {
+    padding: 20px;
+    margin: 20px;
+    float: left;
 }
 
-article p:last-of-type {
-    color: red;
+.dashed {
+    border: 3px blue dashed;
 }
 
-li:nth-child(1), li:nth-child(7) {
-    font-weight: bold;
+.dotted {
+    border: 3px blue dotted;
 }
 
-li:nth-child(even) {
-    background: grey;
+.double {
+    border: 4px blue double;
 }
 
-li:nth-child(odd) {
-    background: pink;
+.groove {
+    border: 14px blue groove;
 }
 
-li:nth-child(3n + 1) {
-    color: green;
+.inset {
+    border: 14px blue inset;
+}
+
+.outset {
+    border: 14px blue outset;
+}
+
+.ridge {
+    border: 14px blue ridge;
+}
+
+.solid {
+    border: 3px blue solid;
 }
